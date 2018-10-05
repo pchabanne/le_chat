@@ -1,0 +1,205 @@
+*{
+    font: 14px arial;
+}
+body {
+    font:14px arial;
+    color: #222;
+    background-color: #ABABAB;
+}
+input { font:14px arial; }
+a {
+    text-decoration:none;
+}
+a:hover {
+    text-decoration:underline;
+}
+
+#loginform{
+    background:#EBF4FB;
+    border:1px solid #ACD8F0;
+    padding-top:18px;
+}
+
+#loginform p {
+    margin: 5px;
+}
+#name{
+    width: 7em;
+}
+
+#loginform ul{
+    text-align: left;
+}
+#chatbox {
+    margin-bottom: 0.5em;
+    text-align:left;
+    padding:0.8em;
+    background:#fff;
+    height:49em;
+    border:1px solid black;
+    background-color: white;
+    overflow:auto;
+    word-wrap:break-word;
+}
+#usermsg {
+    background-color: white;
+    border:1px solid black;
+    height: 1.5em;
+    margin-bottom: 0;
+    padding: 0 !important;
+    margin-left: 0 !important;
+}
+.error { color: #ff0000;font-size:14px; }
+
+.msgln { margin:0 0 2px 0; }
+
+
+#users {
+    border: solid 1px black;
+    text-align:left;
+    padding-left:10px;
+    max-height: 42.5em;
+    overflow:auto;
+    background-color:  white;
+}
+
+#compteur{
+    display: inline;
+    margin-left: 2em;
+}
+.red{
+    color:red;
+}
+#popin{
+    color:white;
+    text-align: center;
+    margin: 0 auto;
+    border: solid 2px black;
+    background-color: #125378;
+    width: 100%;
+    height: 100%;
+}
+.pasdescroll{
+    overflow-y:hidden;
+    overflow-x:hidden;
+}
+.linkuser{
+    display: inline;
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+img{
+    z-index: 100;
+}
+input#name:focus{
+    border-bottom: 1px solid orange;
+}
+#boutons{
+    z-index: 999;
+}
+input[type="file"]{
+    display: none;
+}
+.image{
+    max-width: 10em;
+    height: auto;
+}
+.bouton{
+    max-width: 3em;
+    height: auto;
+}
+.custom-button{
+    color: teal
+}
+.loginform{
+    max-width: 40em;
+}
+
+#message .col{
+    margin-left: 0 !important;
+    margin-right: 5em;
+    padding: 0 !important;
+}
+form{
+    display: inline;
+}
+.row {
+    margin: 0 !important;
+}
+.test .col{
+    padding-left:0em !important;
+}
+.utilisateurs{margin:0 0 0px 0;}
+@media only screen and (max-width: 1000px) {
+    #users {
+        max-height: 8em;
+    }
+}
+
+@-moz-document url-prefix(http://),url-prefix(https://) {
+    scrollbar {
+        -moz-appearance: none !important;
+        background: rgb(0,255,0) !important;
+    }
+    thumb,scrollbarbutton {
+        -moz-appearance: none !important;
+        background-color: rgb(0,0,255) !important;
+    }
+
+    thumb:hover,scrollbarbutton:hover {
+        -moz-appearance: none !important;
+        background-color: rgb(255,0,0) !important;
+    }
+
+    scrollbarbutton {
+        display: none !important;
+    }
+
+    scrollbar[orient="vertical"] {
+        min-width: 15px !important;
+        background-color: red;
+    }
+}
+#modal1{
+    height: 30em;
+    overflow: auto;
+    background-color: white;
+}
+td{
+    text-align:center !important;
+    vertical-align:middle !important;
+}
+th{
+    text-align:center !important;
+    vertical-align:middle !important;
+}
+.ombre{
+    box-shadow: inset 0.1em 0.1em #333333;
+}
+.border{
+    border-bottom: 2px solid teal !important;
+}
+#btnMasquerAfficher{
+    font-size: 20px;
+}
+
+
+.card{
+    width: 25em;
+    max-height: 8em;
+    color: white;
+    background-color: #546e7a;
+}
+.card-image img{
+    max-height: 8em;
+}
+.title{
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-weight: bold;
+}
+a:hover{
+    text-decoration: none;
+}
