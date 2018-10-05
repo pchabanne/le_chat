@@ -32,8 +32,8 @@ Then, make sure your database is started and run this command :
 ```
 vendor/bin/doctrine orm:schema-tool:create
 ```
-The next step is just for users with an UNIX system, I do not have a solution for Windows users for now.
-In this chat, an user is automatically disconnect after 10 minutes of inactivity. That's why we need that a Python script check every minutes the database and disconnect an users if he is inactive for too long.
+The next step is only for UNIX systems users, I do not have a solution for Windows users for now.
+In this chat, an user is automatically disconnected if inactive for 10 minutes. This is why we need a Python script check of the database every minutes to spot inactive users.
 
 On your terminal, type:
 ```
@@ -49,7 +49,7 @@ The application is now ready!
 
 ## Features 
 
-Le_chat is a global chat, obviously, you can chat with others. Everyone can write something and everyone can read. For now, there is not the possibility to send a private message to an other user.
+Le_chat is a global chat. Everyone can write something and everyone can read. For now, there is not the possibility to send a private message to an other user.
 
 Some smiley are implemented, and you also can send pictures or gif !
 
