@@ -1,6 +1,6 @@
 # Le_chat
 
-Le_chat is an application developped in PHP, javascript.  
+Le_chat is a chat application developped in PHP, javascript.  
 I used the ORM Doctrine, jQuery and the CSS framework Materialize.
 
 ## Prerequisites
