@@ -2,7 +2,7 @@
 
 Le_chat is a chat application developped in PHP, javascript.  
 I used the ORM Doctrine, jQuery and the CSS framework Materialize.  
-This is not the final version, there is still a lot of work on it. For instance I need to fix some bugs, redesign the homepage and redesign the homepage.
+This is not the final version, there is still a lot of work on it. For instance I need to fix some bugs, redesign the homepage, add some features, and change the awful sound which is playing when a message is sent.
 
 ## Prerequisites
 
@@ -46,3 +46,15 @@ and here, just add this line:
 
 
 The application is now ready!
+
+## Features 
+
+Le_chat is a global chat, obviously, you can chat with others. Everyone can write something and everyone can read. For now, there is not the possibility to send a private message to an other user.
+
+Some smiley are implemented, and you also can send pictures or gif !
+
+Sending a youtube links will display it like that  
+![Alt Text](https://media.giphy.com/media/TG90eDPq49vqOlcDil/giphy.gif)
+
+And there is also a night mode !  
+![Alt Text](https://media.giphy.com/media/3HzF1QGxiS9NPfwzCC/giphy.gif)
