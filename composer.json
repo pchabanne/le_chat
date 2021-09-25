@@ -1,6 +1,7 @@
 {
     "require": {
-        "doctrine/orm": "^2.6"
+        "doctrine/orm": "^2.6",
+        "symfony/cache": "^5.3"
     },
     "autoload": {
         "psr-0": {"": "Entity/"}
