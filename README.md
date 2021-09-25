@@ -1,6 +1,9 @@
 # Le_chat
 ⚠️ Ceci est un vieux projet datant de 2018 ⚠️
+
 ⚠️ Bien qu'il soit plus ou moins fonctionnel, le code est un peu brouillon. Si vous lisez ceci, c'est que le code n'est pas maintenu ⚠️
+
+
 Le_chat is a chat application developped in PHP, javascript.  
 I used the ORM Doctrine, jQuery and the CSS framework Materialize.  
 This is not the final version, there is still a lot of work on it. For instance I need to fix some bugs, redesign the homepage, add some features, and change the awful sound which is playing when a message is sent.
